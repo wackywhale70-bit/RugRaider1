@@ -1,0 +1,4 @@
+[build]
+  command = "mkdir -p public && cp index.html logo.webp public/"
+  publish = "public"
+  functions = "netlify/functions"
